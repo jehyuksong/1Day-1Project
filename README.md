@@ -11,4 +11,4 @@
 - ### [6.Ajax Type Ahead](./6day_AjaxTypeAhead.md)
 - ### [7.Array Funcion 2](./7day_ArrayFunction2.md)
 - ### [8.Canvas](./8day_Canvas.md)
-- ### [9.Dev Tools Tricks](./8day_DevToolsTricks.md)
+- ### [9.Dev Tools Tricks](./9day_DevToolsTricks.md)
