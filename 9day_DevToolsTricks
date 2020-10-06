@@ -1,44 +1,35 @@
 # 1일 1프로젝트 (9일차 Dev Tools Tricks)
 
 ```jsx
-const dogs = [{ name: 'Snickers', age: 2 }, { name: 'hugo', age: 8 }];
-
-function makeGreen() {
-  const p = document.querySelector('p');
-  p.style.color = '#BADA55';
-  p.style.fontSize = '50px';
-}    
-
 // Regular 
 // 기본적으로 사용하는 콘솔로그를 보여준다.
-console.log('hello');
+console.log("hello");
 
 // Interpolated
 // 뒤에 이모티콘 %s 자리에 들어간다.
-console.log('Hello I am a %s string!', '💩');
+console.log("Hello I am a %s string!", "💩");
 
 // Styled
 // 뒤의 스타일링이 앞의 문장에 적용된다.
-console.log('%c I am some great text', 'font-size:50px; background:red; 
-text-shadow: 10px 10px 0 blue')
+// console.log('%c I am some great text', 'font-size:50px; background:red; text-shadow: 10px 10px 0 blue')
 
 // warning!
 // 경고 아이콘과 함께 뜬다.
-console.warn('OH NOOO');
+console.warn("OH NOOO");
 
 // Error
 // 에러 발생 아이콘과 함께 뜬다.
-console.error('Shit!');
+console.error("Shit!");
 
 // Info
 // 정보 제공 아이콘과 함께 뜬다.
-console.info('Crocodiles eat 3-4 people per year');
+console.info("Crocodiles eat 3-4 people per year");
 
 // Testing
 // assert 첫번째 매개변수가 false 있때만 2번째 매개변수가 뜬다.
-const p = document.querySelector('p');
+const p = document.querySelector("p");
 
-console.assert(p.classList.contains('ouch'), 'That is wrong!');
+console.assert(p.classList.contains("ouch"), "That is wrong!");
 
 // clearing
 // 콘솔창을 지워준다.
@@ -51,7 +42,7 @@ console.dir(p);
 
 // Grouping together 
 // Snickers와 hugo로 따로 그룹이 지어져서 뜬다.
-dogs.forEach(dog => {
+dogs.forEach((dog) => {
   console.groupCollapsed(`${dog.name}`);
   console.log(`This is ${dog.name}`);
   console.log(`${dog.name} is ${dog.age} years old`);
@@ -77,11 +68,11 @@ console.count('Steve');        // Steve: 8
 
 // timing
 // 작동하는 시간을 확인할 수 있다.
-console.time('fetching data');
-fetch('https://api.github.com/users/wesbos')
-  .then(data => data.json())
-  .then(data => {
-    console.timeEnd('fetching data');
+console.time("fetching data");
+fetch("https://api.github.com/users/wesbos")
+  .then((data) => data.json())
+  .then((data) => {
+    console.timeEnd("fetching data");
     console.log(data);
   });
 
