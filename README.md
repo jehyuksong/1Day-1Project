@@ -22,3 +22,4 @@
 - ### [17.Sorting Band Names](./17day_Sorting.md)
 - ### [18.Reduce Time-hours,mins,seconds](./18day_ReduceTime.md)
 - ### [19.Webcam](./19day_Webcam.md)
+- ### [20.Speech Recognition](./20day_SpeechRecognition.md)
