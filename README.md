@@ -24,3 +24,4 @@
 - ### [19.Webcam](./19day_Webcam.md)
 - ### [20.Speech Recognition](./20day_SpeechRecognition.md)
 - ### [21.Geolocation](./21day_Geolocation.md)
+- ### [22.Follow Along Links](./22day_FollowAlongLinks.md)
