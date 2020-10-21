@@ -27,3 +27,4 @@
 - ### [22.Follow Along Links](./22day_FollowAlongLinks.md)
 - ### [23.Speech Synthesis](./23day_SpeechSynthesis.md)
 - ### [24.Sticky Nav](./24day_StickyNav.md)
+- ### [25.Event Capture, Bubbling, Once](./25day_EventOptions.md)
